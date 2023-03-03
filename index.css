@@ -1,0 +1,97 @@
+body {
+  background-color: lightgray;
+  font-family: Arial, sans-serif;
+}
+form {
+  width: 400px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+input[type="text"],
+input[type="date"] {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+}
+input[type="submit"] {
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+input[type="submit"]:hover {
+  background-color: #3e8e41;
+}
+input[type="reset"] {
+  background-color: red;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  float: right;
+}
+input[type="reset"]:hover {
+  background-color: red;
+}
+table {
+  border-collapse: collapse;
+  margin: 20px auto;
+}
+th,
+td {
+  padding: 10px;
+  border: 1px solid #ccc;
+  text-align: left;
+}
+th {
+  background-color: #4caf50;
+  color: white;
+}
+.view-records-link,
+#logout-btn {
+  background-color: rgb(28, 23, 23);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 0;
+  cursor: pointer;
+  border-radius: 50px;
+}
+.view-records-link:hover {
+  background-color: blue;
+}
+nav {
+  background-color: #333;
+  overflow: hidden;
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+.navbar h1 {
+  margin: 0;
+  color: gold;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
